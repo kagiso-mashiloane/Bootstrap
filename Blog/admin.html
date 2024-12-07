@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bootstrap demo</title>
+    <title>Private-Trading</title>
     <link rel="stylesheet"  href="./css/bootstrap.min.css" >
     
   </head>
@@ -19,17 +19,21 @@
     <h1 style="text-align: center;">Create an article</h1>
 
     <div class="container">
+      <form action="/action_page_page_ptocess_submitted.php">
         <h2>Article Title</h2>
-        <input class="form-control" name="" type="text">
+        <input class="form-control" type="text" id="artTitle" name="" >
         <br>
         <h2>Choose a File</h2>
-        <input type="file" name="" value="">
+        <input type="file" id="file" name="" value="">
         <br> <br>
         <h2>Article Text</h2>
-        <textarea class="form-control" rows="3" id="comment"></textarea>
+        <textarea class="form-control" rows="3" id="artTxt"></textarea>
         <br>
         <h2>Article Catergory</h2>
-        <input class="form-control" name="" type="text">
+        <input class="form-control" type="text" id="artCat" name="">
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
     
    
